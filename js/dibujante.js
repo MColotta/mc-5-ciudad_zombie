@@ -30,8 +30,7 @@ var Dibujante = {
     this.dibujarImagen(entidad.sprite, entidad.x, entidad.y, entidad.ancho, entidad.alto);
   },
 
-  /* Dibuja un rectangulo del color pasado por paramentro en la posicion x, y
-   con ancho y alto*/
+  /* Dibuja un rectangulo del color pasado por paramentro en la posicion x, y, con ancho y alto*/
   dibujarRectangulo: function (color, x, y, ancho, alto) {
     var ctx = this.canvas.getContext('2d');
     ctx.fillStyle = color;
